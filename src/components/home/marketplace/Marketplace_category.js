@@ -133,7 +133,7 @@ const Marketplace_category = () => {
                       />
                       <p className="title1">Electric OX</p>
                       <p className="title2">300 OX</p>
-                      <button className="category_btn">Buy Now</button>
+                      <button className="category_btn" disabled>Buy Now</button>
                     </div>
                   </div>
                 </Fade>
@@ -147,7 +147,7 @@ const Marketplace_category = () => {
                       />
                       <p className="title1">Aqua OX</p>
                       <p className="title2">100 OX</p>
-                      <button className="category_btn">Buy Now</button>
+                      <button className="category_btn" disabled>Buy Now</button>
                     </div>
                   </div>
                 </Fade>
@@ -161,144 +161,10 @@ const Marketplace_category = () => {
                       />
                       <p className="title1">Champagne OX</p>
                       <p className="title2">500 OX</p>
-                      <button className="category_btn">Buy Now</button>
+                      <button className="category_btn" disabled>Buy Now</button>
                     </div>
                   </div>
                 </Fade>
-                <Fade left>
-                  <div className="col-xl-4 col-md-6 col-sm-12">
-                    <div className="category_img_box">
-                      <img
-                        className="img-fluid"
-                        src="assets/img/market/blueNFT.png"
-                        alt=""
-                      />
-                      <p className="title1">RB OX</p>
-                      <p className="title2">100 OX</p>
-                      <button className="category_btn">Buy Now</button>
-                    </div>
-                  </div>
-                </Fade>
-                <Fade top>
-                  <div className="col-xl-4 col-md-6 col-sm-12">
-                    <div className="category_img_box">
-                      <img
-                        className="img-fluid"
-                        src="assets/img/market/grayNFT.png"
-                        alt=""
-                      />
-                      <p className="title1">Electric OX</p>
-                      <p className="title2">300 OX</p>
-                      <button className="category_btn">Buy Now</button>
-                    </div>
-                  </div>
-                </Fade>
-                <Fade right>
-                  <div className="col-xl-4 col-md-6 col-sm-12">
-                    <div className="category_img_box">
-                      <img
-                        className="img-fluid"
-                        src="assets/img/market/yellowNFT.png"
-                        alt=""
-                      />
-                      <p className="title1">Aqua OX</p>
-                      <p className="title2">100 OX</p>
-                      <button className="category_btn">Buy Now</button>
-                    </div>
-                  </div>
-                </Fade>
-                <Fade left>
-                  <div className="col-xl-4 col-md-6 col-sm-12">
-                    <div className="category_img_box">
-                      <img
-                        className="img-fluid"
-                        src="assets/img/market/blueNFT.png"
-                        alt=""
-                      />
-                      <p className="title1">Electric OX</p>
-                      <p className="title2">300 OX</p>
-                      <button className="category_btn">Buy Now</button>
-                    </div>
-                  </div>
-                </Fade>
-                <Fade top>
-                  <div className="col-xl-4 col-md-6 col-sm-12">
-                    <div className="category_img_box">
-                      <img
-                        className="img-fluid"
-                        src="assets/img/market/grayNFT.png"
-                        alt=""
-                      />
-                      <p className="title1">Aqua OX</p>
-                      <p className="title2">100 OX</p>
-                      <button className="category_btn">Buy Now</button>
-                    </div>
-                  </div>
-                </Fade>
-                <Fade right>
-                  <div className="col-xl-4 col-md-6 col-sm-12">
-                    <div className="category_img_box">
-                      <img
-                        className="img-fluid"
-                        src="assets/img/market/yellowNFT.png"
-                        alt=""
-                      />
-                      <p className="title1">Champagne OX</p>
-                      <p className="title2">500 OX</p>
-                      <button className="category_btn">Buy Now</button>
-                    </div>
-                  </div>
-                </Fade>
-                <Fade left>
-                  <div className="col-xl-4 col-md-6 col-sm-12">
-                    <div className="category_img_box">
-                      <img
-                        className="img-fluid"
-                        src="assets/img/market/blueNFT.png"
-                        alt=""
-                      />
-                      <p className="title1">RB OX</p>
-                      <p className="title2">100 OX</p>
-                      <button className="category_btn">Buy Now</button>
-                    </div>
-                  </div>
-                </Fade>
-                <Fade top>
-                  <div className="col-xl-4 col-md-6 col-sm-12">
-                    <div className="category_img_box">
-                      <img
-                        className="img-fluid"
-                        src="assets/img/market/grayNFT.png"
-                        alt=""
-                      />
-                      <p className="title1">Electric OX</p>
-                      <p className="title2">300 OX</p>
-                      <button className="category_btn">Buy Now</button>
-                    </div>
-                  </div>
-                </Fade>
-                <Fade right>
-                  <div className="col-xl-4 col-md-6 col-sm-12">
-                    <div className="category_img_box">
-                      <img
-                        className="img-fluid"
-                        src="assets/img/market/yellowNFT.png"
-                        alt=""
-                      />
-                      <p className="title1">Aqua OX</p>
-                      <p className="title2">100 OX</p>
-                      <button className="category_btn">Buy Now</button>
-                    </div>
-                  </div>
-                </Fade>
-              </div>
-              <div
-                className="row"
-                style={{ textAlign: "center", paddingTop: "5%" }}
-              >
-                <div>
-                  <button className="explore_btn">Explore</button>
-                </div>
               </div>
             </div>
           </div>

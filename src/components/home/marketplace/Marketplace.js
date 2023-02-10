@@ -104,7 +104,7 @@ const Marketplace = () => {
                     <p className="market_item_top_txt1">nipify.com</p>
                   </Link>
                   <p className="market_item_top_txt2">1154 OX</p>
-                  <button className="marketBuy_btn">Buy Now</button>
+                  <button className="marketBuy_btn" disabled>Buy Now</button>
                 </div>
               </Fade>
             </div>
@@ -126,7 +126,7 @@ const Marketplace = () => {
                     <p className="market_item_top_txt1">footballtouring.com</p>
                   </Link>
                   <p className="market_item_top_txt2">1154 OX</p>
-                  <button className="marketBuy_btn">Buy Now</button>
+                  <button className="marketBuy_btn" disabled>Buy Now</button>
                 </div>
               </Fade>
             </div>
@@ -148,7 +148,7 @@ const Marketplace = () => {
                     <p className="market_item_top_txt1">site-task.com</p>
                   </Link>
                   <p className="market_item_top_txt2">1154 OX</p>
-                  <button className="marketBuy_btn">Buy Now</button>
+                  <button className="marketBuy_btn" disabled>Buy Now</button>
                 </div>
               </Fade>
             </div>
@@ -170,7 +170,7 @@ const Marketplace = () => {
                     <p className="market_item_top_txt1">topservicehits.com</p>
                   </Link>
                   <p className="market_item_top_txt2">1154 OX</p>
-                  <button className="marketBuy_btn">Buy Now</button>
+                  <button className="marketBuy_btn" disabled>Buy Now</button>
                 </div>
               </Fade>
             </div>
@@ -192,7 +192,7 @@ const Marketplace = () => {
                     <p className="market_item_top_txt1">topservicehits.com</p>
                   </Link>
                   <p className="market_item_top_txt2">1154 OX</p>
-                  <button className="marketBuy_btn">Buy Now</button>
+                  <button className="marketBuy_btn" disabled>Buy Now</button>
                 </div>
               </Fade>
             </div>
@@ -214,7 +214,7 @@ const Marketplace = () => {
                     <p className="market_item_top_txt1">footballviral.com</p>
                   </Link>
                   <p className="market_item_top_txt2">1154 OX</p>
-                  <button className="marketBuy_btn">Buy Now</button>
+                  <button className="marketBuy_btn" disabled>Buy Now</button>
                 </div>
               </Fade>
             </div>

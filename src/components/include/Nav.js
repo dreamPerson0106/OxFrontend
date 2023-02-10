@@ -242,7 +242,7 @@ const Nav = ({ isAuthenticated, logout }) => {
                   <div className="content content-prepare">
                     <p className="title">Marketplace</p>
                     <span className="detail">
-                      Coming Soon
+                      Still on the work
                     </span>
                     <span className="nav-date" style={{ marginTop: "20px" }}>
                       March 2023
