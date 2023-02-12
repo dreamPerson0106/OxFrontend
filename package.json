@@ -69,5 +69,10 @@
     "css-loader": "^6.5.1",
     "style-loader": "^3.3.1"
   },
-  "proxy": "http://3.72.175.88:5000"
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^>= 4"
+  },
 }
