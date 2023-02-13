@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom';
 
 import Resbtn from '../include/Resbtn';
 
-import axios from "axios";
 const Crypto = () => {
     useEffect(() => {
         const body = document.querySelector('#root');

@@ -6,8 +6,6 @@ import "../../assets/css/home/Wallet.scss";
 import "../../assets/css/home/account/Dashboard.scss";
 
 import PropTypes from "prop-types";
-import Tabs from "@mui/material/Tabs";
-import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 //frame
@@ -29,44 +27,44 @@ import Spinner from "../include/Spinner";
 //     return (value / 0.01 * 100).toFixed()+'%';
 // }
 
-const PrettoSlider = styled(FramePanel)({
-  color: "#52af77",
-  height: 8,
-  "& .MuiSlider-track": {
-    border: "none",
-  },
-  "& .MuiSlider-thumb": {
-    height: 24,
-    width: 24,
-    backgroundColor: "#fff",
-    border: "2px solid currentColor",
-    "&:focus, &:hover, &.Mui-active, &.Mui-focusVisible": {
-      boxShadow: "inherit",
-    },
-    "&:before": {
-      display: "none",
-    },
-  },
-  "& .MuiSlider-valueLabel": {
-    lineHeight: 1.2,
-    fontSize: 12,
-    background: "unset",
-    padding: 0,
-    width: 32,
-    height: 32,
-    borderRadius: "50% 50% 50% 0",
-    backgroundColor: "#52af77",
-    transformOrigin: "bottom left",
-    transform: "translate(50%, -100%) rotate(-45deg) scale(0)",
-    "&:before": { display: "none" },
-    "&.MuiSlider-valueLabelOpen": {
-      transform: "translate(50%, -100%) rotate(-45deg) scale(1)",
-    },
-    "& > *": {
-      transform: "rotate(45deg)",
-    },
-  },
-});
+// const PrettoSlider = styled(FramePanel)({
+//   color: "#52af77",
+//   height: 8,
+//   "& .MuiSlider-track": {
+//     border: "none",
+//   },
+//   "& .MuiSlider-thumb": {
+//     height: 24,
+//     width: 24,
+//     backgroundColor: "#fff",
+//     border: "2px solid currentColor",
+//     "&:focus, &:hover, &.Mui-active, &.Mui-focusVisible": {
+//       boxShadow: "inherit",
+//     },
+//     "&:before": {
+//       display: "none",
+//     },
+//   },
+//   "& .MuiSlider-valueLabel": {
+//     lineHeight: 1.2,
+//     fontSize: 12,
+//     background: "unset",
+//     padding: 0,
+//     width: 32,
+//     height: 32,
+//     borderRadius: "50% 50% 50% 0",
+//     backgroundColor: "#52af77",
+//     transformOrigin: "bottom left",
+//     transform: "translate(50%, -100%) rotate(-45deg) scale(0)",
+//     "&:before": { display: "none" },
+//     "&.MuiSlider-valueLabelOpen": {
+//       transform: "translate(50%, -100%) rotate(-45deg) scale(1)",
+//     },
+//     "& > *": {
+//       transform: "rotate(45deg)",
+//     },
+//   },
+// });
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -94,12 +92,12 @@ TabPanel.propTypes = {
   value: PropTypes.number.isRequired,
 };
 
-function a11yProps(index) {
-  return {
-    id: `simple-tab-${index}`,
-    "aria-controls": `simple-tabpanel-${index}`,
-  };
-}
+// function a11yProps(index) {
+//   return {
+//     id: `simple-tab-${index}`,
+//     "aria-controls": `simple-tabpanel-${index}`,
+//   };
+// }
 
 const Wallet = ({
   sendToken,
@@ -113,7 +111,7 @@ const Wallet = ({
   const [isModal, SetIsModal] = useState(false);
 
   useEffect(() => {
-    if (user.wallet != undefined && user.wallet != null && user.wallet != "")
+    if (user.wallet !== undefined && user.wallet != null && user.wallet !== "")
       getTransaction(user.wallet);
   }, [user]);
 

@@ -89,6 +89,7 @@ const NFT = ({ isAuthenticated }) => {
                     <img
                       className="img-fluid"
                       src="../assets/img/account/dash_yellow.png"
+                      alt=""
                     />
                     <label>Dashboard</label>
                   </div>
@@ -98,6 +99,7 @@ const NFT = ({ isAuthenticated }) => {
                     <img
                       className="img-fluid"
                       src="../assets/img/account/exchange_yellow.png"
+                      alt=""
                     />
                     <label>Exchange</label>
                   </div>
@@ -107,6 +109,7 @@ const NFT = ({ isAuthenticated }) => {
                     <img
                       className="img-fluid"
                       src="../assets/img/account/nft_white.png"
+                      alt=""
                     />
                     <label>NFT's</label>
                   </div>
@@ -116,6 +119,7 @@ const NFT = ({ isAuthenticated }) => {
                     <img
                       className="img-fluid"
                       src="../assets/img/account/wallet_yellow.png"
+                      alt=""
                     />
                     <label>Wallet</label>
                   </div>
@@ -125,6 +129,7 @@ const NFT = ({ isAuthenticated }) => {
                     <img
                       className="img-fluid"
                       src="../assets/img/account/profile_yellow.png"
+                      alt=""
                     />
                     <label>Profile</label>
                   </div>

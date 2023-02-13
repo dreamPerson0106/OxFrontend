@@ -13,11 +13,8 @@ import Resbtn from '../include/Resbtn';
 import FAQ from '../include/FAQ';
 import News from '../include/News';
 
-import PropTypes from 'prop-types';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
-import store from '../../store';
 
 
 const Dashboard = ({  }) => {
@@ -297,7 +294,7 @@ const Dashboard = ({  }) => {
                             <img className="img-fluid" src="assets/img/index/ox_phone.png" alt="" />
                         </div>
                         <div className="col-xl-6 col-md-6">
-                            <p style={{ color: 'white', fontSize: '2rem', fontSize: '4rem', fontStyle: 'italic', marginTop: '20%' }}>Coming Soon</p>
+                            <p style={{ color: 'white', fontSize: '4rem', fontStyle: 'italic', marginTop: '20%' }}>Coming Soon</p>
                             {/* <div className="row">
                                 <div className="qr_box">
                                     <div><center><img className="img-fluid" src="assets/img/index/QR_ox.png" width="50%" height="50%" alt=""/></center></div>

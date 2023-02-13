@@ -90,6 +90,7 @@ const Exchange = ({ isAuthenticated }) => {
                     <img
                       className="img-fluid"
                       src="../assets/img/account/dash_yellow.png"
+                      alt=""
                     />
                     <label>Dashboard</label>
                   </div>
@@ -99,6 +100,7 @@ const Exchange = ({ isAuthenticated }) => {
                     <img
                       className="img-fluid"
                       src="../assets/img/account/exchange_white.png"
+                      alt=""
                     />
                     <label>Exchange</label>
                   </div>
@@ -108,6 +110,7 @@ const Exchange = ({ isAuthenticated }) => {
                     <img
                       className="img-fluid"
                       src="../assets/img/account/nft_yellow.png"
+                      alt=""
                     />
                     <label>NFT's</label>
                   </div>
@@ -126,6 +129,7 @@ const Exchange = ({ isAuthenticated }) => {
                     <img
                       className="img-fluid"
                       src="../assets/img/account/profile_yellow.png"
+                      alt=""
                     />
                     <label>Profile</label>
                   </div>

@@ -38,7 +38,7 @@ const Partnerships = () => {
     axios.post("/api/partnership", data).then((res) => 
     {
       console.log(res.data.msg)
-    if(res.data.msg == "Success"){
+      if(res.data.msg === "Success"){
         Swal.fire({
             title: "Successfully sent!",
             icon: "success",
@@ -172,6 +172,7 @@ const Partnerships = () => {
               <img
                 className="img-fluid"
                 src="assets/img/partnerships/partnerships.png"
+                alt=""
               />
             </div>
           </div>

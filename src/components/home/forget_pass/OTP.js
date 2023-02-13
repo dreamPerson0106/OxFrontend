@@ -17,26 +17,26 @@ const OTP = ({ confirmEmailVerifyCode, sendmail_verifycode }) => {
         }, 500)
       }, []);
 
-    const confirmVerify = () => {
-        const verifyCode1 = document.getElementById('verifyCode1').value;
-        const verifyCode2 = document.getElementById('verifyCode2').value;
-        const verifyCode3 = document.getElementById('verifyCode3').value;
-        const verifyCode4 = document.getElementById('verifyCode4').value;
-        const verifyCode5 = document.getElementById('verifyCode5').value;
-        if(verifyCode1 && verifyCode2 && verifyCode3 && verifyCode4 && verifyCode5) {
-            const data = {
-                id: sendmail_verifycode,
-                code: verifyCode1+verifyCode2+verifyCode3+verifyCode4+verifyCode5
-            }
-            confirmEmailVerifyCode(data);
-        } else{
-            Swal.fire({
-                title: 'Input your verify code',  
-                text: '',
-                icon: 'error',
-            })
-        }
-    }
+    // const confirmVerify = () => {
+    //     const verifyCode1 = document.getElementById('verifyCode1').value;
+    //     const verifyCode2 = document.getElementById('verifyCode2').value;
+    //     const verifyCode3 = document.getElementById('verifyCode3').value;
+    //     const verifyCode4 = document.getElementById('verifyCode4').value;
+    //     const verifyCode5 = document.getElementById('verifyCode5').value;
+    //     if(verifyCode1 && verifyCode2 && verifyCode3 && verifyCode4 && verifyCode5) {
+    //         const data = {
+    //             id: sendmail_verifycode,
+    //             code: verifyCode1+verifyCode2+verifyCode3+verifyCode4+verifyCode5
+    //         }
+    //         confirmEmailVerifyCode(data);
+    //     } else{
+    //         Swal.fire({
+    //             title: 'Input your verify code',  
+    //             text: '',
+    //             icon: 'error',
+    //         })
+    //     }
+    // }
 
     return (
         <Fragment>

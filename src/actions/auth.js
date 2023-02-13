@@ -1,6 +1,5 @@
 import api from '../utils/api';
-import { useNavigate } from 'react-router-dom';
-// import { setAlert } from './alert';
+
 import {
   REGISTER_SUCCESS,
   REGISTER_FAIL,
@@ -16,9 +15,6 @@ import {
 
 import { toast } from 'react-toastify';
 import Swal from 'sweetalert2';
-import React from 'react';
-
-
 
 // Load User
 export const loadUser = () => async dispatch => {
@@ -156,7 +152,7 @@ export const sendEmailVerifyCode = (data) => async dispatch => {
 
 export const confirmEmailVerifyCode = (data) => async dispatch => {
   try {
-    const res = await api.post('/auth/confirmEmailVerifyCode', data);
+    await api.post('/auth/confirmEmailVerifyCode', data);
     Swal.fire({  
       title: 'Sucess!',  
       icon: 'success'
@@ -171,7 +167,7 @@ export const confirmEmailVerifyCode = (data) => async dispatch => {
 
 export const resetPassword = (data) => async dispatch => {
   try {
-    const res = await api.post('/auth/resetPassword', data);
+    await api.post('/auth/resetPassword', data);
     Swal.fire({  
       title: 'Sucess!',  
       icon: 'success'

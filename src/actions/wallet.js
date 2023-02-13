@@ -1,6 +1,6 @@
 import api from '../utils/api';
 
-import { GET_TRANSACTION, SEND_TOKEN, AUTH_ERROR, EMAIL_VERIFY_ID } from './types';
+import { GET_TRANSACTION, EMAIL_VERIFY_ID } from './types';
 import { toast } from 'react-toastify';
 
 import Swal from 'sweetalert2'

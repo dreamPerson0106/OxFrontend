@@ -48,31 +48,31 @@ const Profile = ({ isAuthenticated }) => {
                             <div className='left_box'>
                                 <Link to="/account/dashboard">
                                 <div className='item'>
-                                    <img className='img-fluid' src='../assets/img/account/dash_yellow.png' />
+                                    <img className='img-fluid' src='../assets/img/account/dash_yellow.png' alt=""/>
                                     <label>Dashboard</label>
                                 </div>
                                 </Link>
                                 <Link to="/account/exchange">
                                 <div className='item'>
-                                    <img className='img-fluid' src='../assets/img/account/exchange_yellow.png' />
+                                    <img className='img-fluid' src='../assets/img/account/exchange_yellow.png' alt=""/>
                                     <label>Exchange</label>
                                 </div>
                                 </Link>
                                 <Link to="/account/nft">
                                 <div className='item'>
-                                    <img className='img-fluid' src='../assets/img/account/nft_yellow.png' />
+                                    <img className='img-fluid' src='../assets/img/account/nft_yellow.png' alt=""/>
                                     <label>NFT's</label>
                                 </div>
                                 </Link>
                                 <Link to="/wallet">
                                 <div className='item'>
-                                    <img className='img-fluid' src='../assets/img/account/wallet_yellow.png' />
+                                    <img className='img-fluid' src='../assets/img/account/wallet_yellow.png' alt=""/>
                                     <label>Wallet</label>
                                 </div>
                                 </Link>
                                 <Link to="/account/profile">
                                 <div className='item active'>
-                                    <img className='img-fluid' src='../assets/img/account/profile_white.png' />
+                                    <img className='img-fluid' src='../assets/img/account/profile_white.png' alt=""/>
                                     <label>Profile</label>
                                 </div>
                                 </Link>

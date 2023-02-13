@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, useParams } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Dashboard from './components/home/Dashboard';
 import Crypto from './components/home/Crypto';
 import Aboutus from './components/home/Aboutus';
@@ -46,11 +46,11 @@ import setAuthToken from './utils/setAuthToken';
 import Referral from "./components/home/Referral";
 import Partnerships from "./components/home/Partnerships";
 //account
-import Account_dash from './components/home/account/Dashboard';
-import Account_exchange from './components/home/account/Exchange';
+import Account_Dash from './components/home/account/Dashboard';
+import Account_Exchange from './components/home/account/Exchange';
 import Account_NFT from './components/home/account/NFT';
-import Account_wallet from './components/home/account/Wallet';
-import Account_profile from './components/home/account/Profile';
+import Account_Wallet from './components/home/account/Wallet';
+import Account_Profile from './components/home/account/Profile';
 
 //forget password
 import ForgetPassword from './components/home/forget_pass/ForgetPassword';
@@ -106,11 +106,11 @@ const App = () => {
               
               <Route exact path="/referral" element={ <Referral /> } />
               <Route exact path="/partnerships" element={ <Partnerships /> } />
-              <Route exact path="/account/dashboard" element={ <Account_dash /> } />
-              <Route exact path="/account/exchange" element={ <Account_exchange /> } />
+              <Route exact path="/account/dashboard" element={ <Account_Dash /> } />
+              <Route exact path="/account/exchange" element={ <Account_Exchange /> } />
               <Route exact path="/account/nft" element={ <Account_NFT /> } />
-              <Route exact path="/account/wallet" element={ <Account_wallet /> } />
-              <Route exact path="/account/profile" element={ <Account_profile /> } />
+              <Route exact path="/account/wallet" element={ <Account_Wallet /> } />
+              <Route exact path="/account/profile" element={ <Account_Profile /> } />
 
               <Route exact path="/forgetpassword" element={ <ForgetPassword /> } />
               <Route exact path="/OTP" element={ <OTP /> } />

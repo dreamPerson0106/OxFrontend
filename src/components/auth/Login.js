@@ -9,7 +9,7 @@ import { login } from '../../actions/auth';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Login = ({ login, isAuthenticated}) => {
@@ -20,7 +20,6 @@ const Login = ({ login, isAuthenticated}) => {
         }, 500)
       }, []);
 
-    const [isModal, SetIsModal] = useState(false);
     const [formData, setFormData] = useState({
         email: '',
         password: ''

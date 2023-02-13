@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect } from 'react';
-import { Link, Navigate, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Nav from '../../include/Nav';
 import Resbtn from '../../include/Resbtn';
 import Download from '../../include/Download';

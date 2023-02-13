@@ -40,7 +40,7 @@ const Oxlabs = () => {
     
         axios.post("/api/oxlab_idea", data).then((res) => {
             console.log(res.data.msg)
-            if(res.data.msg == "Success"){
+            if(res.data.msg === "Success"){
                 Swal.fire({
                     title: "Successfully sent!",
                     icon: "success",

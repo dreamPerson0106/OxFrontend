@@ -77,6 +77,7 @@ const Connect = () => {
                 <img
                   className="img-fluid"
                   src="assets/img/connect/building.svg"
+                  alt=""
                 />
               </Fade>
             </div>
