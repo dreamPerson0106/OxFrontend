@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { BrowserRouter as Router, Route, Routes, useParams } from "react-router-dom";
 import Dashboard from './components/home/Dashboard';
 import Crypto from './components/home/Crypto';
@@ -64,8 +64,6 @@ import Connect from './components/home/Connect';
 import './App.css';
 
 const App = () => {
-
-  let { id } = useParams();
 
     // check for token in LS
     if (localStorage.token) {
