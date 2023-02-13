@@ -113,7 +113,7 @@ const Wallet = ({
   useEffect(() => {
     if (user.wallet !== undefined && user.wallet != null && user.wallet !== "")
       getTransaction(user.wallet);
-  }, [user]);
+  }, [user, getTransaction]);
 
   const [formData, setFormData] = useState({
     toAddress: "",

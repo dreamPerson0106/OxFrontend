@@ -19,7 +19,7 @@ const Detail = ({ getNew , getNews ,  new_detail, news }) => {
 
     useEffect(() => {
         getNews();
-    }, [getNew]);
+    }, [getNew, getNews]);
 
     useEffect(() => {
         getNew(id);

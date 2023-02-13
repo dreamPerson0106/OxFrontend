@@ -32,7 +32,7 @@ const Dashboard = ({ isAuthenticated, user, authFlag }) => {
       });
       store.dispatch({ type: "SET_AUTH_FLAG" });
     }
-  }, []);
+  }, [authFlag]);
 
   if (isAuthenticated !== null) {
     if (isAuthenticated === false) {

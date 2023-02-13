@@ -11,6 +11,9 @@ import axios from 'axios';
 import { Row, Col } from 'react-bootstrap';
 
 const News = ({ getNews, news: {news} }) => {
+
+    const [currentPage, setCurrentPage] = useState(1);
+
     useEffect(() => {
         const body = document.querySelector('#root');
             body.scrollIntoView({
@@ -21,7 +24,7 @@ const News = ({ getNews, news: {news} }) => {
     useEffect(() => {
         getNews(currentPage);
         getTotalNewsCount();
-    }, [getNews]);
+    }, [getNews, currentPage]);
 
     const [totalCount, setTotalCount] = useState(1); 
 
@@ -33,7 +36,6 @@ const News = ({ getNews, news: {news} }) => {
         setTotalCount(res.data);
     }
 
-    const [currentPage, setCurrentPage] = useState(1);
 
     const panginator = (
         <div className='d-flex justify-content-between align-item-center'>
