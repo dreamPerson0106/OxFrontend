@@ -45,7 +45,7 @@ const Oxschool = () => {
                                     <div className="oxschools_creater_img"><img src="assets/img/oxschool/Ellipse37.png" alt="" /></div>
                                     <div>
                                         <p className="oxschools_creater_name">Chris Haroun</p>
-                                        <p className="oxschools_creater_date">Last updated 7/2021</p>
+                                        <p className="oxschools_creater_date">Last updated 12/2022</p>
                                     </div>
                                 </div>
                         </div>
