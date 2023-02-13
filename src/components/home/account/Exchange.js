@@ -120,6 +120,7 @@ const Exchange = ({ isAuthenticated }) => {
                     <img
                       className="img-fluid"
                       src="../assets/img/account/wallet_yellow.png"
+                      alt=""
                     />
                     <label>Wallet</label>
                   </div>

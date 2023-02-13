@@ -9,8 +9,8 @@ import PropTypes from "prop-types";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 //frame
-import { Slider as FramePanel } from "@mui/material";
-import { styled } from "@mui/material/styles";
+// import { Slider as FramePanel } from "@mui/material";
+// import { styled } from "@mui/material/styles";
 
 import { connect } from "react-redux";
 import { sendToken, getTransaction, emailVerify } from "../../actions/wallet";
@@ -284,6 +284,7 @@ const Wallet = ({
                       <img
                         className="img-fluid"
                         src="../assets/img/account/dash_yellow.png"
+                        alt=""
                       />
                       <label>Dashboard</label>
                     </div>
@@ -293,6 +294,7 @@ const Wallet = ({
                       <img
                         className="img-fluid"
                         src="../assets/img/account/exchange_yellow.png"
+                        alt=""
                       />
                       <label>Exchange</label>
                     </div>
@@ -302,6 +304,7 @@ const Wallet = ({
                       <img
                         className="img-fluid"
                         src="../assets/img/account/nft_yellow.png"
+                        alt=""
                       />
                       <label>NFT's</label>
                     </div>
@@ -311,6 +314,7 @@ const Wallet = ({
                       <img
                         className="img-fluid"
                         src="../assets/img/account/wallet_white.png"
+                        alt=""
                       />
                       <label>Wallet</label>
                     </div>
@@ -320,6 +324,7 @@ const Wallet = ({
                       <img
                         className="img-fluid"
                         src="../assets/img/account/profile_yellow.png"
+                        alt=""
                       />
                       <label>Profile</label>
                     </div>

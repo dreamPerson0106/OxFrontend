@@ -1,10 +1,10 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import MenuItem from "@mui/material/MenuItem";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import { logout } from "../../actions/auth";
-import { makeStyles } from "@material-ui/styles";
+// import { makeStyles } from "@material-ui/styles";
 import HoverMenu from "material-ui-popup-state/HoverMenu";
 import {
   usePopupState,
@@ -87,14 +87,14 @@ function CascadingMenu({ popupState, ...props }) {
 }
 
 const Nav = ({ isAuthenticated, logout }) => {
-  let assets_const = "assets";
+  // let assets_const = "assets";
 
-  if (
-    window.location.pathname.split("/").length === 3 ||
-    window.location.pathname === "/account/dashboard"
-  ) {
-    assets_const = "../assets";
-  }
+  // if (
+  //   window.location.pathname.split("/").length === 3 ||
+  //   window.location.pathname === "/account/dashboard"
+  // ) {
+  //   assets_const = "../assets";
+  // }
 
   const popupState_home = usePopupState({
     popupId: "demoMenu_home",

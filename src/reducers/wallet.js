@@ -1,4 +1,4 @@
-import { GET_TRANSACTION, SEND_TOKEN, EMAIL_VERIFY_ID } from "../actions/types";
+import { GET_TRANSACTION, EMAIL_VERIFY_ID } from "../actions/types";
 
 const initialState = {
     transactions: [],

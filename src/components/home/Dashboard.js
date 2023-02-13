@@ -17,7 +17,7 @@ import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
-const Dashboard = ({  }) => {
+const Dashboard = () => {
     useEffect(() => {
         const body = document.querySelector('#root');
         body.scrollIntoView({

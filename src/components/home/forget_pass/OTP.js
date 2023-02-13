@@ -7,7 +7,7 @@ import '../../../assets/css/home/forgetpassword/OTP.scss';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { confirmEmailVerifyCode } from '../../../actions/auth';
-import Swal from 'sweetalert2';
+// import Swal from 'sweetalert2';
 
 const OTP = ({ confirmEmailVerifyCode, sendmail_verifycode }) => {
     useEffect(() => {

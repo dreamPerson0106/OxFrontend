@@ -25,11 +25,11 @@ const Detail = ({ getNew , getNews ,  new_detail, news }) => {
         getNew(id);
     }, [getNew, id]);
 
-    var stringToHTML = function (str) {
-        var parser = new DOMParser();
-        var doc = parser.parseFromString(str, 'text/html');
-        return doc.body;
-    };
+    // var stringToHTML = function (str) {
+    //     var parser = new DOMParser();
+    //     var doc = parser.parseFromString(str, 'text/html');
+    //     return doc.body;
+    // };
 
     return (
         <Fragment>

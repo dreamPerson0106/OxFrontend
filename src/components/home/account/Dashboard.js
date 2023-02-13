@@ -109,6 +109,7 @@ const Dashboard = ({ isAuthenticated, user, authFlag }) => {
                     <img
                       className="img-fluid"
                       src="../assets/img/account/dash_white.png"
+                      alt=""
                     />
                     <label>Dashboard</label>
                   </div>
@@ -118,6 +119,7 @@ const Dashboard = ({ isAuthenticated, user, authFlag }) => {
                     <img
                       className="img-fluid"
                       src="../assets/img/account/exchange_yellow.png"
+                      alt=""
                     />
                     <label>Exchange</label>
                   </div>
@@ -127,6 +129,7 @@ const Dashboard = ({ isAuthenticated, user, authFlag }) => {
                     <img
                       className="img-fluid"
                       src="../assets/img/account/nft_yellow.png"
+                      alt=""
                     />
                     <label>NFT's</label>
                   </div>
@@ -136,6 +139,7 @@ const Dashboard = ({ isAuthenticated, user, authFlag }) => {
                     <img
                       className="img-fluid"
                       src="../assets/img/account/wallet_yellow.png"
+                      alt=""
                     />
                     <label>Wallet</label>
                   </div>
@@ -145,6 +149,7 @@ const Dashboard = ({ isAuthenticated, user, authFlag }) => {
                     <img
                       className="img-fluid"
                       src="../assets/img/account/profile_yellow.png"
+                      alt=""
                     />
                     <label>Profile</label>
                   </div>
