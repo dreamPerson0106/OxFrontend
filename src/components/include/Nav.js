@@ -358,7 +358,7 @@ const Nav = ({ isAuthenticated, logout }) => {
                     Engage professionals from around the world through our secure OX Network
                     </span>
                     <span className="nav-date" style={{ marginTop: "20px" }}>
-                      Feb 2022
+                      Feb 2023
                     </span>
                   </div>
                 </Link>

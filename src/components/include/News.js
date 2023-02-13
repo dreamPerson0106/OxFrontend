@@ -20,7 +20,7 @@ const News = ({ getNews, news: { news} }) => {
                             <div className="dash_section2_box">
                                 <Link to={`/news/${item._id}`}><p className="dash_section2_news1_text">{item.title}</p></Link>
                                 <Link to={`/news/${item._id}`}><p className="dash_section2_news2_text">{item.comment.substring(0,100)+'...'}</p></Link>
-                                <p className="dash_section2_news3_text">OX STOCKS 26    |   October 2021</p>
+                                <p className="dash_section2_news3_text">OX STOCKS 26    |   Dec 2022</p>
                             </div>
                         </div>
                     ))
