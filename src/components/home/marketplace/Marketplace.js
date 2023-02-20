@@ -97,7 +97,7 @@ const Marketplace = () => {
                         alt=""
                       />
                       <p className="market_item_top_txt1">nipify.com</p>
-                      <p className="market_item_top_txt2">www.oxstocks.com</p>
+                      <p className="market_item_top_txt2">www.ox-stocks.com</p>
                     </div>
                   </Link>
                   <Link to="/marketplaceDetail">
@@ -120,7 +120,7 @@ const Marketplace = () => {
                       alt=""
                     />
                     <p className="market_item_top_txt1">footballtouring.com</p>
-                    <p className="market_item_top_txt2">www.oxstocks.com</p>
+                    <p className="market_item_top_txt2">www.ox-stocks.com</p>
                   </div>
                   <Link to="/marketplaceDetail">
                     <p className="market_item_top_txt1">footballtouring.com</p>
@@ -142,7 +142,7 @@ const Marketplace = () => {
                       alt=""
                     />
                     <p className="market_item_top_txt1">site-task.com</p>
-                    <p className="market_item_top_txt2">www.oxstocks.com</p>
+                    <p className="market_item_top_txt2">www.ox-stocks.com</p>
                   </div>
                   <Link to="/marketplaceDetail">
                     <p className="market_item_top_txt1">site-task.com</p>
@@ -164,7 +164,7 @@ const Marketplace = () => {
                       alt=""
                     />
                     <p className="market_item_top_txt1">mealscombined.com</p>
-                    <p className="market_item_top_txt2">www.oxstocks.com</p>
+                    <p className="market_item_top_txt2">www.ox-stocks.com</p>
                   </div>
                   <Link to="/marketplaceDetail">
                     <p className="market_item_top_txt1">topservicehits.com</p>
@@ -186,7 +186,7 @@ const Marketplace = () => {
                       alt=""
                     />
                     <p className="market_item_top_txt1">topservicehits.com</p>
-                    <p className="market_item_top_txt2">www.oxstocks.com</p>
+                    <p className="market_item_top_txt2">www.ox-stocks.com</p>
                   </div>
                   <Link to="/marketplaceDetail">
                     <p className="market_item_top_txt1">topservicehits.com</p>
@@ -208,7 +208,7 @@ const Marketplace = () => {
                       alt=""
                     />
                     <p className="market_item_top_txt1">footballviral.com</p>
-                    <p className="market_item_top_txt2">www.oxstocks.com</p>
+                    <p className="market_item_top_txt2">www.ox-stocks.com</p>
                   </div>
                   <Link to="/marketplaceDetail">
                     <p className="market_item_top_txt1">footballviral.com</p>

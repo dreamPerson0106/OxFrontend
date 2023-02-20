@@ -283,7 +283,7 @@ const Nav = ({ isAuthenticated, logout }) => {
                   <div className="content1">
                     <p className="title">Ox Coin</p>
                     <span className="detail">
-                      The premium currency of oxstocks.com
+                      The premium currency of ox-stocks.com
                     </span>
                   </div>
                 </Link>

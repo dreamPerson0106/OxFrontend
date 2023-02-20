@@ -174,12 +174,12 @@ const Wallet = ({
     SetIsModal(false);
   };
 
-  const return_url = "http://www.oxstocks.com/paypal-success.php";
-  const cancel_return = "http://www.oxstocks.com/paypal-cancel.php";
+  const return_url = "http://www.ox-stocks.com/paypal-success.php";
+  const cancel_return = "http://www.ox-stocks.com/paypal-cancel.php";
   const paypal_url = "https://www.sandbox.paypal.com/cgi-bin/webscr";
   // const paypal_url = 'https://www.paypal.com/cgi-bin/webscr';
   /* Live url : https://www.paypal.com/cgi-bin/webscr */
-  const notify_url = "http://www.oxstocks.com/paypal-notify.php";
+  const notify_url = "http://www.ox-stocks.com/paypal-notify.php";
   //Here we can used seller email id.
   const merchant_email = "be1512t6@gmail.com";
 

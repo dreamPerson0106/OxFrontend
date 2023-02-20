@@ -39,7 +39,7 @@ const MarketplaceDetail = () => {
                             <div className="marketDetail_box_left">
                                 <img className="img-fluid" src="assets/img/market/iconox.png" width="30%" height="30%"  alt="" />
                                 <p className="title1">nipify.com</p>
-                                <p className="title2">www.oxstocks.com</p>
+                                <p className="title2">www.ox-stocks.com</p>
                             </div>
                             </Fade>
                         </div>
