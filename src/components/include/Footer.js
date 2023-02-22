@@ -68,10 +68,10 @@ const Footer = () => {
             <div className="col-xl-12 col-md-12">
               <ul className="footer1_ul">
               <li>
-                  <a href="https://twitter.com/oxstocks">
+                  <a href="https://twitter.com/OX_Stocks">
                     <img
                       className="img-fluid"
-                      src={`${assets_const}/img/index/twitter.png`}
+                      src={`${assets_const}/img/index/twitter-2.png`}
                       alt=""
                       width="50"
                       height="50"
@@ -79,7 +79,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com/profile.php?id=100054981446022">
+                  <a href="/">
                     <img
                       className="img-fluid"
                       src={`${assets_const}/img/index/facebook.png`}
@@ -90,7 +90,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/oxstocks/?hl=en">
+                  <a href="/">
                     <img
                       className="img-fluid"
                       src={`${assets_const}/img/index/instagram.png`}
