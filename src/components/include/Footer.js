@@ -71,7 +71,7 @@ const Footer = () => {
                   <a href="https://twitter.com/OX_Stocks">
                     <img
                       className="img-fluid"
-                      src={`${assets_const}/img/index/twitter-2.png`}
+                      src={`${assets_const}/img/index/twitter.png`}
                       alt=""
                       width="50"
                       height="50"
@@ -90,26 +90,15 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="/">
+                  <a href="https://medium.com/@ox_stocks">
                     <img
                       className="img-fluid"
-                      src={`${assets_const}/img/index/instagram.png`}
+                      src={`${assets_const}/img/index/Medium.png`}
                       alt=""
-                      width="50"
-                      height="50"
+                      width="48"
+                      height="48"
                     />
                   </a>
-                </li>
-                <li>
-                  <Link to="/">
-                    <img
-                      className="img-fluid"
-                      src={`${assets_const}/img/index/youtube.png`}
-                      alt=""
-                      width="50"
-                      height="50"
-                    />
-                  </Link>
                 </li>
                 
               </ul>
