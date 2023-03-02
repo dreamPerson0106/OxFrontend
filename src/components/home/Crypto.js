@@ -76,7 +76,7 @@ const Crypto = () => {
                         </Fade>
                         </div>
 
-                        <p style={{ color: 'white', fontSize: '2rem', padding: '5% 0 20%' }}>Coming Soon</p>
+                        <p style={{ color: 'white', fontSize: '2rem', padding: '5% 0 20%' }}>CA: 0xa4df54f346230b1ad6d12c9633868c9841bf20f7</p>
                             
                     </div>
                 </div>
